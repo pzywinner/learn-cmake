@@ -7,7 +7,7 @@ project(HelloApp
         DESCRIPTION "The leading Hello world App"
         LANGUAGES CXX)
 
-#添加文件
+#Target
 add_executable(HelloAppBinary main.cpp)
 
 #目标编译器的特性设置
